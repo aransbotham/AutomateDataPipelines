@@ -101,14 +101,10 @@ In the DAG, add default parameters according to these guidelines
   <img src="images/create_tables_dag.png" alt="Create Tables DAG" width=60% height=60%>
 </p>
 
-
-
 **Operators:**
 1. begin_execution: DAG start
 2. create_tables: Create tables in Redshift
 3. stop_execution: DAG stop
-
-<image of DAG>
 
 2. `final_project`
 
@@ -129,9 +125,3 @@ In the DAG, add default parameters according to these guidelines
     - load_user_dim_table
 5. run_data_quality_checks 
 6. stop_execution: DAG stop
-
-<image of DAG>
-
-## Example Completed Runs
-
-<image of runs>

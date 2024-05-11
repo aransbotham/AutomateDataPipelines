@@ -26,7 +26,9 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 - Apache Airflow
 - Amazon Web Services (AWS IAM, S3, Redshift Serverless, CLI, Cloudshell
 
+```
 airflow users create --email student@example.com --firstname aStudent --lastname aStudent --password admin --role Admin --username admin
+```
 
 # Data Pipeline
 ## Copy S3 Data

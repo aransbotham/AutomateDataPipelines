@@ -88,6 +88,11 @@ Value = annarans
 ```
 
 ## Configure Airflow DAGs
+
+<p align="center">
+  <img src="images/DAGS.png" alt="DAGs in Airflow" width=60% height=60%>
+</p>
+
 In the DAG, add default parameters according to these guidelines
 
 - The DAG does not have dependencies on past runs
